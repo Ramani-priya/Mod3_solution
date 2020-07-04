@@ -8,7 +8,7 @@ a:link {
     text-decoration: none;
 }
 
-#header-nav {
+#header-nav .container {
     background-color: #808080;
     border: 1px solid black;
     color:black;
@@ -32,13 +32,20 @@ a:link {
 .sectilte a{
     text-decoration:none;
 }
-#nav-list{
-    color:black;
-}
-.navbar-default .navbar-nav > li > span > a {
+#nav-list > #collapsable-nav {
+    background-color: white;
     color: black;
-    padding:10px;
-    margin:0px;
+}
+.navbar-nav > li > a {
+    margin-top: 0px;
+
+}
+.nav > li > a {
+    margin-top: 10px;
+}
+
+ul {
+    background-color: white;
 }
 a{
     color:#0f2b6d;
@@ -50,3 +57,4 @@ body h1{
 hr{
     color:black
 }
+
