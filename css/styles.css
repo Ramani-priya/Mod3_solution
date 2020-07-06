@@ -3,7 +3,7 @@ body {
     padding: 0px;
     color: black;
     border-color: transparent;
-    background-color: #d97171;
+    background-color: #e17842;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -17,20 +17,26 @@ body {
     #collapsable-nav {
         border-color: transparent;
     }
-    .container-fluid {
-        margin-top: -10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: #d97171;
-    }
+.container-fluid {
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e17842;
+}
     a:link {
         color: #151414;
         text-decoration: none;
     }
     .card {
-        background-color: #d1cece;
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+        background-color: #f2b99c;
         border: 1px solid black;
         margin: 15px;
+        box-shadow:0 0 80px #b24420;
+        padding:10px;
+        margin:15px;
     }
     .sectilte {
         padding: 10px;
@@ -52,12 +58,12 @@ body {
     }
 
 
-    #header-nav {
-        background-color: #fb3f56;
-        padding:10px;
-        margin:0px;
-        border-color: transparent;
-    }
+#header-nav {
+    background-color:#e85424;
+    padding: 10px;
+    margin: 0px;
+    border-color: transparent;
+}
 
     .list-item {
         padding: 10px;
@@ -68,7 +74,7 @@ body {
         font-weight:bold;
     }
     .list-item:hover{
-        background-color:#f79f9f;
+        background-color:#f2905d;
     }
     .header-title {
         margin: 0px;
