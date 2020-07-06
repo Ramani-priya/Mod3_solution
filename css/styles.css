@@ -1,61 +1,76 @@
 body {
-    margin:0px;
+    margin: 0px;
+    padding: 0px;
     color: black;
+    border-color: transparent;
+    background-color: #d97171;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-a:link {
-    color: black;
-    text-decoration: none;
-}
 
-#header-nav .container {
-    background-color: #808080;
-    border: 1px solid black;
-    color:black;
+    @media (min-width: 768px) {
+        .navbar-collapse.collapse {
+            height:auto;
+            
+        }
+        
+    }
+    #collapsable-nav {
+        border-color: transparent;
+    }
+.container-fluid {
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #d97171;
 }
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+    .card {
+        background-color: #d1cece;
+        border: 1px solid black;
+        margin: 15px;
+    }
+    .sectilte {
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        
+    }
+    .card a {
+        text-decoration: none;
+        color: #fa6a04;
+    }
+    .card p {
+        padding: 15px;
+    }
 
-.card {
-    background-color: #808080;
-    border: 1px solid black;
-    margin: 15px;
-    
-}
-.sectilte{
-    padding:10px;
-    text-align: center;
-    font-weight:bold;
-    font-size:1.2em;
-}
-.card p{
-    padding:15px;
-}
-.sectilte a{
-    text-decoration:none;
-    color:blue;
-}
-#nav-list > #collapsable-nav {
-    background-color: white;
-    color: black;
-}
-.navbar-nav > li > a {
-    margin-top: 0px;
+    body h1 {
+        text-align: center;
+    }
 
-}
-.nav > li > a {
-    margin-top: 10px;
-}
 
-ul {
-    background-color: white;
-}
-a{
-    color:#0f2b6d;
-    text-decoration:none;
-}
-body h1{
-    text-align:center;
-}
-hr{
-    color:black
-}
+    #header-nav {
+        background-color: #fb3f56;
+        padding:10px;
+        margin:0px;
+        border-color: transparent;
+    }
 
+    .list-item {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-title {
+        margin: 0px;
+        color: #111010;
+    }
+
+    .text-center {
+        color: #111010;
+        ;
+        text-align: center;
+    }
