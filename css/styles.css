@@ -17,14 +17,14 @@ body {
     #collapsable-nav {
         border-color: transparent;
     }
-.container-fluid {
-    margin-top: -10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #d97171;
-}
+    .container-fluid {
+        margin-top: -10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #d97171;
+    }
     a:link {
-        color: black;
+        color: #151414;
         text-decoration: none;
     }
     .card {
@@ -41,7 +41,7 @@ body {
     }
     .card a {
         text-decoration: none;
-        color: #fa6a04;
+        color: #e82c2c;
     }
     .card p {
         padding: 15px;
@@ -61,16 +61,18 @@ body {
 
     .list-item {
         padding: 10px;
-        text-align: center;
+        text-align:center;
     }
-
+    #nav-list>a>div {
+        color: #111010;
+        font-weight:bold;
+    }
+    .list-item:hover{
+        background-color:#f79f9f;
+    }
     .header-title {
         margin: 0px;
         color: #111010;
     }
 
-    .text-center {
-        color: #111010;
-        ;
-        text-align: center;
-    }
+    
